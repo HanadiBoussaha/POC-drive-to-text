@@ -58,3 +58,18 @@ def list_files(url: str) -> list[dict]:
                 }
             )
     return files
+
+def download_file(file_id: str) -> bytes:
+    """Download the raw content of a public Drive file."""
+    api_key = os.getenv("GOOGLE_API_KEY")
+    if not api_key:
+        raise DriveError("GOOGLE_API_KEY is not configured.")
+
+    response = requests.get(
+        f"{DRIVE_API_URL}/{file_id}",
+        params={"alt": "media", "key": api_key},
+        timeout=60,
+    )
+    if not response.ok:
+        raise DriveError(f"Could not download file ({response.status_code}).")
+    return response.content
