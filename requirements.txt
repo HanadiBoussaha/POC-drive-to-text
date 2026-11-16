@@ -2,3 +2,5 @@ fastapi==0.163.1
 uvicorn==0.54.0
 requests==2.34.2
 python-dotenv==1.2.4
+pdfplumber==0.11.10
+pytest==9.2.0
