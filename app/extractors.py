@@ -37,3 +37,18 @@ def extract_image_text(content: bytes, lang: str = DEFAULT_OCR_LANG) -> str:
         raise ExtractionError("Could not run OCR on the image.") from exc
 
     return text.strip()
+
+def extract_scanned_pdf_text(content: bytes, lang: str = DEFAULT_OCR_LANG) -> str:
+    """OCR each page of a PDF that has no text layer."""
+    try:
+        with pdfplumber.open(io.BytesIO(content)) as pdf:
+            pages = []
+            for page in pdf.pages:
+                image = page.to_image(resolution=200).original
+                pages.append(pytesseract.image_to_string(image, lang=lang))
+    except pytesseract.TesseractNotFoundError as exc:
+        raise ExtractionError("Tesseract is not installed or not found.") from exc
+    except Exception as exc:
+        raise ExtractionError("Could not run OCR on the scanned PDF.") from exc
+
+    return "\n\n".join(pages).strip()
