@@ -2,8 +2,16 @@
 
 Small web app that takes a **public Google Drive folder link**, lists the PDFs and images it contains, and extracts their text with a PDF parser or OCR.
 
-Proof of concept for the Dixpertia technical assessment (Ref. TA-2026-01).
+Proof of concept for the Dixpertia technical assessment.
 
+## Quick start
+
+1. Install Python 3.10+ and [Tesseract OCR](https://github.com/UB-Mannheim/tesseract/wiki)
+2. `pip install -r requirements.txt`
+3. `copy .env.example .env`, then put **your own Google Drive API key** in `.env` (required: the app reads your Drive folder through the Drive API)
+4. `uvicorn app.main:app --reload` and open http://127.0.0.1:8000
+
+No API key at hand? `pytest` runs without one, and [`examples/sample_output.json`](examples/sample_output.json) shows a real output.
 ## Features
 
 - List the PDFs and images (PNG, JPG, JPEG) of a public Drive folder; other file types are ignored
