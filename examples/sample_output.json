@@ -1,0 +1,65 @@
+[
+  {
+    "id": "1c38JaLP4J31y9dXfH3j6PF_bmR8ATPOY",
+    "name": "05_lettre_scannee.jpg",
+    "type": "jpg",
+    "status": "done",
+    "method": "ocr",
+    "text": "Mme Prenom NOM\n3 rue de l'Exemple, Ville Exemple\n\nVille Exemple, le 9 novembre 2026\n\nObjet : demande de rendez-vous\n\nMadame, Monsieur,\n\nJe me permets de vous ecrire afin de solliciter un rendez-vous\nau sujet de mon dossier n° 2026-4471. Je souhaiterais en\nparticulier vous presenter les pieces complementaires\ndemandees lors de notre derniere conversation telephonique.\n\nJe suis disponible tous les matins de la semaine prochaine,\nentre 9h et 12h. Vous pouvez me joindre au 00 000 000 ou par\n\ncourrier electronique.\n\nDans l'attente de votre reponse, je vous prie d'agreer,\nMadame, Monsieur, l'expression de mes salutations distinguees.\n\nPrenom NOM",
+    "error": null
+  },
+  {
+    "id": "1Sj9BNBeXywT3Rj2G-4G1bPwEtk92dU5v",
+    "name": "02_contrat_prestation_fr.pdf",
+    "type": "pdf",
+    "status": "done",
+    "method": "pdf_parser",
+    "text": "CONTRAT DE PRESTATION DE SERVICES\nEntre les soussignes : Entreprise Exemple A, ci-apres « le Prestataire », et Client Exemple B,\nci-apres « le Client ». Il a ete convenu ce qui suit :\nArticle 1 - Objet\nLe present contrat a pour objet la realisation par le Prestataire d'une application web d'extraction\nde texte a partir de documents PDF et d'images, pour le compte du Client. Les livrables sont\ndetailles a l'annexe 1.\nArticle 2 - Duree\nLe contrat prend effet a la date de signature et reste valable pour une duree de six (6) mois. Il peut\netre renouvele par accord ecrit des parties, au plus tard un mois avant son terme.\nArticle 3 - Prix et modalites de paiement\nLe prix total de la prestation est fixe a douze mille dinars (12 000 TND) hors taxes. Il est regle en\ntrois echeances : 30 % a la signature, 40 % a la livraison de la version beta, 30 % a la recette\nfinale.\nArticle 4 - Obligations du Prestataire\nLe Prestataire s'engage a executer les travaux avec diligence, a respecter les delais convenus et a\ninformer le Client sans delai de toute difficulte susceptible de retarder la livraison.\nEXEMPLE - Document de test, donnees entierement fictives Page 1\n\nArticle 5 - Confidentialite\nChaque partie s'interdit de divulguer les informations confidentielles de l'autre partie, pendant la\nduree du contrat et pendant cinq (5) ans apres son expiration, sauf obligation legale.\nArticle 6 - Propriete intellectuelle\nLe Client devient proprietaire des developpements specifiques realises pour son compte apres\npaiement integral du prix. Les composants libres restent soumis a leurs licences respectives.\nArticle 7 - Resiliation\nEn cas de manquement grave non corrige dans un delai de quinze (15) jours apres mise en\ndemeure, la partie lesee peut resilier le contrat de plein droit, sans prejudice de dommages et\ninterets.\nArticle 8 - Droit applicable\nLe present contrat est soumis au droit en vigueur. Tout litige releve de la competence exclusive\ndes tribunaux competents.\nFait a Ville Exemple, le 3 novembre 2026, en deux exemplaires originaux.\nLe Prestataire Le Client\nSignature : Signature :\nEXEMPLE - Document de test, donnees entierement fictives Page 2",
+    "error": null
+  },
+  {
+    "id": "1wiABjsMT9GAyvTUnBJRRd6YNrOukcStq",
+    "name": "01_facture_fr.pdf",
+    "type": "pdf",
+    "status": "done",
+    "method": "pdf_parser",
+    "text": "FACTURE N° FA-2026-0187\nEntreprise Exemple A\n1 rue de l'Exemple, Ville Exemple\nMatricule fiscal : XXXXXXX/X/X/000\nTel : 00 000 000 - contact@exemple.invalid\nClient : Client Exemple B\n2 avenue de l'Exemple, Ville Exemple\nDate de facturation : 12 novembre 2026\nEcheance : 12 decembre 2026\nDesignation Qte P.U. HT (TND) Total HT (TND)\nDeveloppement module d'extraction de documents 5 j 600,000 3 000,000\nConfiguration moteur OCR (francais / anglais) 2 j 600,000 1 200,000\nHebergement serveur - novembre 2026 1 85,000 85,000\nFormation equipe (demi-journee) 1 350,000 350,000\nTotal HT 4 635,000\nTVA 19 % 880,650\nTimbre fiscal 1,000\nNet a payer 5 516,650 TND\nConditions de paiement : virement bancaire a 30 jours. Toute somme non payee a l'echeance\nentraine des penalites de retard de 1,5 % par mois. RIB : XX XXX XXXXXXXXXXXX XX.\nEXEMPLE - Document de test, donnees entierement fictives Page 1",
+    "error": null
+  },
+  {
+    "id": "1gddCUiPe6r0ZITF5m_gUOzTY6Tqsa88u",
+    "name": "06_bon_livraison.jpeg",
+    "type": "jpg",
+    "status": "done",
+    "method": "ocr",
+    "text": "BON DE LIVRAISON N° BL-3391\nEntreprise Exemple C - Entrepot principal - 15/11/2026\n\nRef. Designation Quantite Poids (kg)\nA-102 Palette cartons 60x40 12 340\n\nB-215 Rouleaux film plastique 30 95\n\nC-009 Etiquettes thermiques 8 22\n\nD-554 Bacs de rangement 24 110\n\nTransporteur : Transporteur Exemple\n\nReception signee :",
+    "error": null
+  },
+  {
+    "id": "13iOpXvpN_Eh-BorEC23Qsb7FDzx357S_",
+    "name": "03_annual_report_en.pdf",
+    "type": "pdf",
+    "status": "done",
+    "method": "pdf_parser",
+    "text": "Annual Operations Report 2026\nPrepared by the Operations Department - Example Company C\n1. Executive summary\nDocument volumes handled by the operations team grew by 38 percent compared to 2025. Most\nincoming files are scanned delivery notes and supplier invoices, which still require manual\nre-keying. Automating text extraction is the first step towards a searchable archive.\n2. Key figures\nIndicator 2025 2026 Change\nDocuments processed 41 200 56 900 +38 %\nAverage handling time (min) 6.4 4.1 -36 %\nManual entry errors 1 180 612 -48 %\nShare of scanned files 72 % 65 % -7 pts\n3. Challenges\nNative PDFs can be parsed directly, but scanned documents contain no text layer. They must go\nthrough optical character recognition (OCR), whose accuracy depends on scan quality, resolution\nand language. Mixed French and English documents are frequent.\nEXEMPLE - Document de test, donnees entierement fictives Page 1\n\n4. Recommendations\nFirst, route native PDFs to a PDF parser and images to an OCR engine. Second, keep a per-file\nstatus so that one failing document never blocks a batch. Third, store extracted text in a structured\nformat such as JSON to feed a search index or a retrieval system.\n5. Next steps\nA pilot on 500 documents is planned for the first quarter of 2027. Success criteria: at least 95\npercent of characters correctly extracted and a median processing time below two seconds per\npage.\nEXEMPLE - Document de test, donnees entierement fictives Page 2",
+    "error": null
+  },
+  {
+    "id": "1szqKz12TmILKh-0fUqUnqppvQEpipRYg",
+    "name": "04_recu_caisse.png",
+    "type": "png",
+    "status": "done",
+    "method": "ocr",
+    "text": "CAFE EXEMPLE\n1 rue de l'Exemple\nTel 00 000 000\n\nTicket 004582 16/11/2026\n\nCaissier: 01 14:32\n2 Espresso 2.400\n1 Capuccino 3.200\n2 Croissant 5.000\n1 Eau 50cl 1.000\n1 Jus orange 4.500\nTOTAL TTC 16.100\nEspeces 20.000\nRendu 3.900\n\nMerci et a bientot !",
+    "error": null
+  },
+  {
+    "id": "1psyiJ_kptXU5CdDXW3V0jrxUyvhUcsWj",
+    "name": "07_facture_scannee.pdf",
+    "type": "pdf",
+    "status": "done",
+    "method": "ocr_fallback",
+    "text": "FACTURE N° FA-2026-0187\n\nEntreprise Exemple A\n\n1 rue de l'Exemple, Ville Exemple\nMatricule fiscal : XXXXXXX/X/X/000\n\nTel : 00 000 000 - contact@exemple.invalid\n\nClient : Client Exemple B\n\n2 avenue de l'Exemple, Ville Exemple\nDate de facturation : 12 novembre 2026\nEcheance : 12 decembre 2026\n\nDesignation\n| Developpement module d' extraction de documents\n| Configuration moteur OCR (francais / anglais)\n\n| Hebergement : serveur - novembre 2026\n\n| Formation equipe (demi Hournee)\n\nQte\new\n2\n\nP.U. HT (TND)\n600,000\n\n| | Total HT\nTVA 19 %\n\n600,000 |\n85,000 |\n350,000 |\n\n| | Timbre! fiscal ie :\n\nNet a payer\n\nTotal HT (TND)\n3 000, 000 |\n1 200, 000 |\n85, 000 |\n350, 000 |\n\n| 4 635,000\n\n880, 650 |\n1 ,000 |\n5! 516, 650 TND |\n\nConditions de paiement : virement bancaire a 30 jours. Toute somme non payee a l'echeance\nentraine des penalites de retard de 1,5 % par mois. RIB : XX XXX XXXXXXXXXXXX XX.\n\nEXEMPLE - Do ent de test, données entierement fictives",
+    "error": null
+  }
+]
