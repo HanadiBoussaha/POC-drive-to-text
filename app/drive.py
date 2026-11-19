@@ -12,6 +12,10 @@ ALLOWED_MIME_TYPES = {
     "image/png": "png",
     "image/jpeg": "jpg",
 }
+MISSING_KEY_MESSAGE = (
+    "GOOGLE_API_KEY is not configured. "
+    "Copy .env.example to .env and add your Google Drive API key (see the README)."
+)
 
 
 class DriveError(Exception):
@@ -32,7 +36,7 @@ def list_files(url: str) -> list[dict]:
 
     api_key = os.getenv("GOOGLE_API_KEY")
     if not api_key:
-        raise DriveError("GOOGLE_API_KEY is not configured.")
+        raise DriveError(MISSING_KEY_MESSAGE)
 
     params = {
         "q": f"'{folder_id}' in parents and trashed = false",
@@ -60,11 +64,12 @@ def list_files(url: str) -> list[dict]:
             )
     return files
 
+
 def download_file(file_id: str) -> bytes:
     """Download the raw content of a public Drive file."""
     api_key = os.getenv("GOOGLE_API_KEY")
     if not api_key:
-        raise DriveError("GOOGLE_API_KEY is not configured.")
+        raise DriveError(MISSING_KEY_MESSAGE)
 
     response = requests.get(
         f"{DRIVE_API_URL}/{file_id}",
