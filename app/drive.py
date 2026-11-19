@@ -28,11 +28,12 @@ def extract_folder_id(url: str) -> str:
 
 def list_files(url: str) -> list[dict]:
     """List the PDFs and images of a public Drive folder."""
+    folder_id = extract_folder_id(url)
+
     api_key = os.getenv("GOOGLE_API_KEY")
     if not api_key:
         raise DriveError("GOOGLE_API_KEY is not configured.")
 
-    folder_id = extract_folder_id(url)
     params = {
         "q": f"'{folder_id}' in parents and trashed = false",
         "fields": "files(id, name, mimeType, size)",
