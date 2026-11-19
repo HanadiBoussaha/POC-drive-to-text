@@ -13,3 +13,4 @@ Main dependencies of this project, their licences, and whether they can be used 
 | pytesseract | 0.3.13 | Apache-2.0 | Yes | Python wrapper for Tesseract |
 | Pillow | 13.0.0 | MIT-CMU (HPND) | Yes | Image loading |
 | Tesseract OCR (external program) | 5.5.3 | Apache-2.0 | Yes | Installed separately, not bundled |
+| httpx | 0.28.1 | BSD-3-Clause | Yes | Dev dependency only (API tests) |
